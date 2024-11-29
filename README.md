@@ -3,6 +3,7 @@
 
 
 Description of the Contact List Application
+
 This Contact List application is a simple React-based project designed for managing a list of contacts. It provides an intuitive interface for adding, viewing, and deleting contacts with minimal styling to ensure clarity. Below is a breakdown of its components and functionality:
 
 1. App Component (App.js)
