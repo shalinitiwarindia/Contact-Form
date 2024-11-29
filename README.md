@@ -46,6 +46,7 @@ The deleteContact function filters the contact list to exclude the contact with 
 Passed as a prop to both ContactList and ContactCard.
 
 Styling Overview
+
 Global Styling (App.module.css):
 Defines the overall layout with a centered title and input section.
 Uses modern styles for buttons and inputs, such as hover states and smooth transitions.
@@ -54,6 +55,7 @@ ContactList.module.css ensures proper alignment of the list container.
 ContactCard.module.css adds polished card-like visuals and interactive hover effects.
 
 How the Application Works
+
 Users are greeted with a Contact List title and a form for adding contacts.
 Each contact is displayed as a card with the name visible by default.
 Clicking on a card expands it to show the phone number.
@@ -62,6 +64,7 @@ Add new contacts by entering a name and phone number, which updates the list dyn
 Delete contacts using the "Delete" button, which removes the contact instantly.
 
 Key Features Summary
+
 Interactive UI: Expandable cards and hover effects improve the user experience.
 Dynamic Updates: React's state ensures the list updates immediately when contacts are added or deleted.
 Simple and Clean Code Structure: Separate components and modular CSS files promote scalability and readability.
